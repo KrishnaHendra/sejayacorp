@@ -1,0 +1,16 @@
+1. Buat landing page untuk EO sama DJ Artist Internal
+2. System tiket manual, pembeli menukar invoice dengan tiket sesuai qty yang dibeli
+3. Pembayaran masih manual, status dirubah manual
+4. Garis besar aplikasi adalah Syncronize, Oh nais hanya sebagai konten
+5. Tambah history tentang guest star yang sudah pernah diundang dan event yang sudah pernah diadakan oleh EO
+6. Membuat js untuk menambahi nama pada carousel gallery ketika gambar sedang di select
+
+
+7. Tanggal 21 februari buat video teaser premier untuk website. Hanya menampilkan pengenalan website (Carousel).
+8. Data user dapat digenerate dalam bentuk pdf.
+9. Requirement
+    a. History (Past Event).
+    b. Video teaser.
+    c. Contoh" pdf.
+    d. Data DJ nanak tanpa alamat dan facebook.
+    e. Hosting tunggu informasi.

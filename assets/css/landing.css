@@ -1,0 +1,257 @@
+/*
+  Theme Name: TheEvent
+  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	color: #f82249;
+	transition: 0.5s;
+}
+
+
+a:hover,
+a:active,
+a:focus {
+	color: #f8234a;
+	outline: none;
+	text-decoration: none;
+}
+
+
+/* Mobile Nav body classes */
+
+body.mobile-nav-active {
+	overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+	left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+	color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# supporters Section
+--------------------------------------------------------------*/
+
+#supporters {
+	width: 100%;
+	height: 100%;
+}
+
+#supporters .screen {
+	position: relative;
+	flex-grow: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 1s;
+}
+
+#supporters #eo {
+	background: url("../img/page-bg.jpg") top center no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#supporters #eo::before {
+	content: "";
+	background: rgba(13, 20, 41, 0.8);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#supporters #dj {
+	background: url("../img/page-bg.jpg") top center no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#supporters #dj::before{
+	content: "";
+	background: rgba(13, 20, 41, 0.8);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#supporters:hover .screen {
+	opacity: 0.5;
+}
+
+#supporters .screen:hover {
+	flex-grow: 4;
+	opacity: 1;
+}
+
+#supporters .screen .content {
+	position: fixed;
+	width: 400px;
+	height: 250px;
+	padding: 1.5%;
+	transform: translate(40%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#supporters .screen .content img {
+	width: 80%;
+	height: 80%;
+}
+
+#supporters .screen .content:hover {
+	transform: scale(0.8);
+	transform: translate(0%);
+	color: white;
+}
+
+#supporters .screen:hover .content {
+	margin-right: 0%;
+	transform: translate(0);
+	transition-delay: 0.5s;
+}
+
+#supporters .screen .content h2 {
+	margin-top: 62px;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: white;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 1399px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 30%;
+	height: 20%;
+	padding: 1.5%;
+	transform: translate(40%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+}
+
+@media (max-width: 1399px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+	transform: translate(40%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 30%;
+	height: 20%;
+	padding: 1.5%;
+	transform: translate(115%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+    
+	.screen {
+		height: 50%;
+	}
+}
+
+@media (max-width: 1024px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 40%;
+	height: 20%;
+	padding: 1.5%;
+	transform: translate(75%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+    
+	.screen {
+		height: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 40%;
+	height: 20%;
+	padding: 1.5%;
+	transform: translate(75%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+    
+	.screen {
+		height: 50%;
+	}
+}
+
+@media (max-width: 460px) {
+    #supporters .screen .content {
+	position: fixed;
+	width: 40%;
+	height: 15%;
+	padding: 1.5%;
+	transform: translate(80%);
+	transition: 0.5s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    }
+    
+	.screen {
+		height: 50%;
+	}
+}
+
+
+

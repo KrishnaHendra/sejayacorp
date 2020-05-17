@@ -1,0 +1,48 @@
+  public function pesan()
+    {
+        $this->form_validation->set_rules('id_user', 'id_user', 'trim|required');
+
+        if ($this->form_validation->run() == TRUE) {
+            $this->home_model->pesan();
+            $this->cart->destroy();
+
+            $config = [
+            'mailtype'  => 'html',
+            'charset'   => 'utf-8',
+            'protocol'  => 'smtp',
+            'smtp_host' => 'smtp.gmail.com',
+            'smtp_user' => 'satriowicaksono076@gmail.com',  // Email gmail
+            'smtp_pass'   => 'gedhekcz82/',  // Password gmail
+            'smtp_crypto' => 'ssl',
+            'smtp_port'   => 465,
+            'crlf'    => "\r\n",
+            'newline' => "\r\n"
+        ];
+
+            $this->load->library('email', $config);
+
+            $this->email->set_newline("\n\n");
+
+            $this->email->from('satriowicaksono076@gmail.com.', 'Satrio');
+            $email = $this->session->userdata('email');
+            $this->email->to($email);
+
+            $this->email->subject('Konfirmasi Pembelian');
+            $this->email->message("Terima kasih sudah membeli tiket melalui aplikasi kami. <br><br>
+                                    Tiket yang anda pesan : VIP (3) Ekonomi One Pass (2). <br><br>
+                                    Total Pembayaran : Rp. 800.000 <br><br>
+                                    Lakukan Pembayaran dengan transfer ke <a href='#'>0023465675</a> lalu dapatkan informasi selanjutnya");
+
+            $this->email->send();
+
+
+            $this->session->set_flashdata('terbeli','<div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <i class="fa fa-check-circle"></i> Berhasil membeli tiket!
+            </div>');
+            redirect('user/profil','refresh');
+        } else {
+            $this->session->set_flashdata('gagal_pesan', 'Pesanan Gagal Dibuat');
+            redirect('user/checkout','refresh');
+        }
+    }
