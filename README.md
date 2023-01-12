@@ -25,7 +25,6 @@ Synchronize websites used to purchase concert tickets online.
 - Forgot Password
 - Remember Me
 - Dynamic Role
-    - Adminstrator
     - Accounting
     - General User
 - Dynamic Function
