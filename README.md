@@ -8,7 +8,6 @@ Synchronize websites used to purchase concert tickets online.
 - Remember Me
 - Dynamic Role
     - Adminstrator
-        - Level 1
     - Accounting
     - General User
 - Dynamic Function
