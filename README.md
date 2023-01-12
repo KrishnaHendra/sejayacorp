@@ -21,4 +21,3 @@ Synchronize websites used to purchase concert tickets online.
     
 ## Backup
 - Sign In Page
-- Sign Up Page
