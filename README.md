@@ -19,4 +19,3 @@ Synchronize websites used to purchase concert tickets online.
     - Delete
 
 ## Backup
-- Sign In Page
