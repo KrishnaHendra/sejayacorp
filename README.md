@@ -9,9 +9,7 @@ Synchronize websites used to purchase concert tickets online.
 - Dynamic Role
     - Adminstrator
     - Accounting
-    - Manager
-    - Chef
-    - Customer
+    - General User
 - Dynamic Function
     - Create
     - Read
