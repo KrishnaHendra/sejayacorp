@@ -31,4 +31,3 @@ Synchronize websites used to purchase concert tickets online.
     - Customer
 - Dynamic Function
     - Create
-    - Read
