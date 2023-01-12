@@ -17,5 +17,3 @@ Synchronize websites used to purchase concert tickets online.
     - Read
     - Update
     - Delete
-
-## Backup
