@@ -28,4 +28,3 @@ Synchronize websites used to purchase concert tickets online.
     - Accounting
     - Manager
     - Chef
-    - Customer
