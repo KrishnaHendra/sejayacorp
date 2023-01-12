@@ -26,4 +26,3 @@ Synchronize websites used to purchase concert tickets online.
 - Dynamic Role
     - Adminstrator
     - Accounting
-    - Manager
