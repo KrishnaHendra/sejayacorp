@@ -29,4 +29,3 @@ Synchronize websites used to purchase concert tickets online.
     - Accounting
     - General User
 - Dynamic Function
-    - Create
