@@ -23,5 +23,4 @@ Synchronize websites used to purchase concert tickets online.
 - Sign In Page
 - Sign Up Page
 - Forgot Password
-- Remember Me
-- Dynamic Role
+- Remember
