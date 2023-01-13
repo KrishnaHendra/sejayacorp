@@ -28,7 +28,6 @@ Synchronize websites used to purchase concert tickets online.
     - Adminstrator
         - Level 1
         - Level 2
-        - Level 3
     - Accounting
     - General User
 - Dynamic Function
