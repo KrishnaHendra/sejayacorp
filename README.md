@@ -34,4 +34,3 @@ Synchronize websites used to purchase concert tickets online.
     - Create
     - Read
     - Update
-    - Delete
