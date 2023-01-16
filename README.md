@@ -28,5 +28,4 @@ Synchronize websites used to purchase concert tickets online.
     - Adminstrator
     - Accounting
     - Manager
-    - Chef
 - Dynamic Function
